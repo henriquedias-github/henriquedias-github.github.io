@@ -1,0 +1,178 @@
+
+.style-button{
+ display: none;
+ font-size: 0px;
+}
+
+ 
+.cardapio-presentation{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 6px;
+  margin-bottom: 13px;
+  
+}
+
+.title-cardapio{
+  color: #FFBF00;
+  font-size: 24px;
+  font-weight: 500;
+}
+.subtitle-cardapio{
+  color: #1A1A1A;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.active-cardapio{
+  background-color: #FFBF00;
+}
+
+.content-cardapio{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.maincontent-torta{
+  width: 23.9rem;
+  padding: 13px;
+  padding-top: 8px;
+  box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+.content-name-torta{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 5px;
+  padding-bottom: 12px;
+}
+
+.title-name-torta{
+    font-size: 19px;
+    font-weight: 500;
+    color: var(--cor-titulo-torta);
+}
+
+.model{
+  color: #692c15;
+  font-size: 12px;
+}
+.genero{
+  color: var(--cor-titulo-torta);
+  font-size: 10px;
+}
+
+.content-image-val{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 5px;
+}
+
+.img-torta{
+    width: 195px;
+    /* width: min(580px, 12vw); */
+    height: auto; 
+} 
+
+.kilomoney.torta-n3{
+  padding-left: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.peso-torta{
+padding-top: 19px;
+padding-bottom: 10px;
+
+}
+
+.kilo-pessoas-torta{}
+
+.kilo-torta{
+  color: var(--cor-titulo-torta);
+  font-size: 18px;
+  font-weight: 770;
+}
+
+.pessoas-torta{
+  color: var(--cor-titulo-torta);
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.content-money-torta{}
+
+
+.val-pessoas-torta{}
+
+
+.val-liquida-torta{
+  color: #808080;
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration:line-through
+}
+
+.val-money-torta{
+  color: #1A1A1A;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+
+.description-torta{
+  height: 80px;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-size: 0.9rem;
+  font-weight: 150px;
+  color: var(--Marrom);
+}
+
+.description-text{
+  text-align: center;
+}
+
+
+.button-torta{
+  padding: 18px 0px 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#btn_pedido{}
+
+
+#btn_pedido:hover{
+  background-color: #692c15;
+  /* box-shadow: 0px 0px 12px 6px rgba(0, 0, 0, 0.1); */
+}
+
+.btn-pedido{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFBF00;
+  border-radius: 18px;
+  padding: 14px 20px;
+  /* box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.1); */
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+  color: #ffff;
+  /* color: #1d1d1d; */
+  width: 178px;
+  font-size: 1.1rem;
+  /* font-weight: 600; */
+  transition: .5s ease; 
+}
+
+
+
