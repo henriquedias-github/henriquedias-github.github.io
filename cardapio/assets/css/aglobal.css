@@ -1,0 +1,49 @@
+/* Importar fontes aqui */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url(bheader.css);
+@import url(csidebar.css);
+@import url(dcontent.css);
+@import url(footer.css);
+@import url(mobile.css);
+@import url(style.css); 
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+body{
+  background-color: #fff9ea;
+}
+
+:root{
+  --dark:#1e1c2a;
+  --white:#fff;
+  --head-color: #310803;
+  --Cor-logo: #511E05;
+  --Marrom:#570f05;
+  --Marrom-delta:#641a00;
+  --sidebar-submenu: #7a1508;
+  --cor-texto-delta:#641A00;
+  --red-salmao:#d63a25;
+  --Amarelo:#ffe100;
+  --fundo: #fff9ea;
+  --cor-footer-delta:#501703;
+  --cor-icon-delta:#641A00;
+  --cor-sidebar-delta: #722F17;
+  --cor-menu-global:#692c15;
+  --cor-titulo-torta:#603B2B;
+}
+
+
+
+.li{
+  border: 3px solid #7a1508;
+}
+
+
