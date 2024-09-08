@@ -1,0 +1,65 @@
+
+
+
+.main-alert-exclamation {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 45px;
+  background-color: #7a0c15;
+  border: 1px solid #E03131;
+  border-radius: 5px;
+  padding: 10px 12px;
+  width: 0px;
+  margin: 12px 0px 12px 0px;
+  cursor: pointer;
+}
+
+.show-button-plus {
+  display: flex;  /* Exibe como flex */
+  width: 270px;   /* Altera a largura */
+}
+
+.close-icon{
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -8px;
+  left: 250px;
+  text-align: center;
+  font-size: 15px;
+  color: #fff;
+  background-color: #E03131;
+  width: 0px;
+  height: 28px;
+  border-radius: 14px;
+}
+
+.show-close-icon {
+  display: flex;
+  width: 28px;
+}
+
+
+#main_alert_exclamation ul{
+  display: flex;
+  justify-content: center;
+  gap:6px;
+}
+
+
+
+
+#main_alert_exclamation ul li i{
+  color: #f3a0a7;
+  font-size: 1.2rem;
+  padding-left: 4px;
+}
+
+#main_alert_exclamation ul li p{
+  font-size: 0.8rem;
+  color: #f3a0a7;
+}
+
