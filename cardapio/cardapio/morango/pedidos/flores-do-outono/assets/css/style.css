@@ -1,0 +1,526 @@
+
+.style-button{
+  display: flex;
+  color: #692c15;
+  font-size: 28px;
+  position: fixed;
+  top: 85px;
+  left: -50px;
+  transition: 0.3s ease;
+}
+.cardapio-presentation{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 12px;
+  margin-bottom: 4px;
+  
+}
+.title-cardapio{
+  color:#692c15;
+  font-size: 22px;
+  font-weight: 300;
+  margin-bottom: 8px;
+}
+.subtitle-cardapio{
+  color: #1A1A1A;
+  font-size: 20px;
+  font-weight: 500;
+}
+.active-cardapio{
+  background-color: #FFBF00;
+}
+.content-cardapio{
+  display: flex;
+  justify-content: center;
+}
+.maincontent-torta{
+  width: 23.9rem;
+  padding: 13px;
+  padding-top: 8px;
+  box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  background-color: var(--color-card);
+}
+
+.content-name-torta p{
+  padding-bottom: 20px;
+  font-size: 16px;
+}
+.title-name-torta{
+    font-size: 19px;
+    font-weight: 500;
+    color: var(--cor-titulo-torta);
+}
+.model{
+  color: #692c15;
+  font-size: 12px;
+}
+.genero{
+  color: var(--cor-titulo-torta);
+  font-size: 10px;
+}
+.content-image-val{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.content-name-torta{
+  font-size: 19px;
+  text-align: center;
+  color: #603b2b;
+
+}
+.control-t-img{
+  position: relative;
+  padding: 15px 15px 0px 15px;
+}
+.share{
+  position: absolute;
+  left: 303px;
+  top: 220px;
+  color: var(--cor-titulo-torta);
+  font-size: 30px;
+  cursor: pointer;
+}
+.img-torta{
+    width: 250px;
+    /* width: min(580px, 12vw); */
+    height: auto; 
+    margin: 0;
+} 
+.kilomoney.torta-n3{
+  padding-left: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.peso-torta{
+padding-top: 19px;
+padding-bottom: 10px;
+}
+.kilo-torta{
+  color: var(--cor-titulo-torta);
+  font-size: 18px;
+  font-weight: 770;
+}
+.pessoas-torta{
+  color: var(--cor-titulo-torta);
+  font-size: 15px;
+  font-weight: 500;
+}
+.val-liquida-torta{
+  color: #808080;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration:line-through
+}
+.val-money-torta{
+  color: #404040;
+  font-size: 22px;
+  font-weight: 500;
+}
+.description-torta{
+  height: 80px;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-size: 0.9rem;
+  font-weight: 150px;
+  color: var(--Marrom);
+}
+.description-text{
+  text-align: center;
+}
+.button-torta{
+  padding: 18px 0px 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#btn_pedido:hover{
+  background-color: #692c15;
+  /* box-shadow: 0px 0px 12px 6px rgba(0, 0, 0, 0.1); */
+}
+.btn-pedido{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFBF00;
+  border-radius: 18px;
+  padding: 14px 20px;
+  /* box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.1); */
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+  font-size: 1rem;
+  font-weight: 600;
+  color:#fff;
+  width: 178px;
+  transition: .5s ease; 
+}
+.control-ver-mais{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-ver-mais{ 
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  font-size: 1rem;
+  color: #404040;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  background-color: #ffffff;
+  padding: 11px 13px;
+  width: 128px;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+  border-radius: 16px;
+}
+.card-carrossel{
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+.card-nav{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding-bottom: 20px;  
+  position: relative;
+}
+.click-item{
+  display: flex;
+  font-size: 0.9rem;
+  color: #1A1A1A;
+  background-color: #ffffff;
+  padding: 11px 13px;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+  border-radius: 16px;
+  transition: .5s ease;
+}
+.ico-active-trad{
+  background-color: #FFBF00;
+}
+.active-white{
+  background-color: #ffffff;
+}
+
+.active-yellow{
+  background-color: #FFBF00;
+}
+.card-nav i{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 5px;
+  width: 20px;
+  height: auto;
+}
+.scroll-horizontal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  width: 100%;
+}
+.content-absolute{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  background-color: #fff9ea;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 500px;
+  top: 90%;
+  transition: 1.5s ease;
+}
+.plus-icon{
+  font-size: 1.5rem;
+  color: #404040;
+}
+.dasativa-container{
+  display: none;
+}
+.control-button-money{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.button-click{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+  margin-left: 2px;
+}
+
+.button-click i{
+font-size: 18px;
+}
+
+.btn-minus{
+  height: 44px;
+  color: var(--cor-titulo-torta);
+  padding: 10px 12px;
+  border: 2px solid var(--cor-titulo-torta);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  font-size: 14px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+
+.add-numeros-itens{
+  height: 44px;
+  color: var(--cor-titulo-torta);
+  padding: 5.3px 17px;
+  border-top: 2px solid var(--cor-titulo-torta);
+  border-bottom: 2px solid var(--cor-titulo-torta);
+  font-size: 20px;
+  background-color: #fff;
+  font-weight: 500;
+}
+
+.btn-plus{
+  height: 44px;
+  color: var(--cor-titulo-torta);
+  padding: 10px 12px;
+  border: 2px solid var(--cor-titulo-torta);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-size: 14px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+
+.btn-minus:hover, .btn-plus:hover{
+  color: var(--color-white);
+  background-color:#b28b7a;
+}
+
+.text-total{
+  color: var(--cor-titulo-torta);
+  font-size: 16px;
+  font-weight: 500;
+}
+.t-mon-toral span{
+  color: var(--color-primary);
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.container-n{
+  margin-right: 45px;
+}
+.text-x{
+  font-size: 19px;
+  color: var(--cor-titulo-torta);
+}
+.text-variable{
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--color-primary);
+}
+.text-money span{
+  color: var(--color-text);
+  font-size: 19px;
+  font-weight: 400;
+}
+.container-total{
+margin-bottom: 15px;
+margin-left: 156px
+}
+
+
+.form-container {
+  margin-top: 40px;
+  margin-bottom: 100px;
+  width: 23.9rem;
+  padding: 8px 35px 30px 35px;
+  box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  background-color: var(--color-card);
+}
+
+
+
+/* Classe para a animação de saída de baixo para cima */
+.animate__fadeOutUp {
+  transform: translateY(0);
+  opacity: 1;
+  transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+}
+
+/* Aplica a animação de saída */
+.animate__fadeOutUp.hidden {
+  transform: translateY(-100%);
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* Para ocultar de vez */
+.hide {
+  display: none;
+}
+
+
+
+.info-contact{
+  margin-top: 18px;
+  margin-bottom: 25px;
+  font-size: 1.1rem;
+  color: var(--color-text);
+  font-weight: 700;
+}
+
+.form-text-left{
+  color: #5b5b5b;
+  text-align: left;
+}
+
+.form-opcional{
+  color: var(--color-text);
+  text-align: right;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+
+.btn-form{ 
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  font-size: 1rem;
+  color: #404040;
+  margin-top: 3px;
+  margin-bottom: 12px;
+  background-color: #ffffff;
+  padding: 11px 13px;
+  width: 100%;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+  border-radius: 16px;
+}
+
+.btn-cometario{ 
+  font-size: 1.1rem;
+  color: #404040;
+  margin-top: 3px;
+  margin-bottom: 12px;
+  background-color: #ffffff;
+  padding: 11px 13px;
+  width: 100%;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+  border-radius: 16px;
+}
+
+#comentarios{
+  display: flex;
+  max-width: 100%; /* Limita a largura máxima a 100% */
+  height: 150px; /* Define uma largura mínima */
+  box-sizing: border-box; /* Garante que o padding seja incluído na largura total */
+  resize: vertical; /* Permite que o usuário redimensione o textarea apenas verticalmente */
+  border: none;
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+  color: #404040;
+}
+
+.format-a{
+  font-size: 1.1rem;
+  border: none;
+  color: #404040;
+  width: 100%;
+  height: 44px;
+}
+
+#contador{
+  text-align: right;
+  font-size: 12px;
+}
+
+.mt-10{
+  margin-top: 20px;
+}
+
+#proximo{
+  cursor: pointer;
+}
+
+.control-qtd-val{
+  display: flex;
+  gap: 16px;
+}
+
+.color-f{
+  font-size: 1rem;
+  color: var(--color-text);
+}
+
+.color-s{
+  font-size: 1.1rem;
+  color: var(--color-text);
+  font-weight: 700;
+}
+
+.color-s-date{
+  font-size: 1.09rem;
+  color: var(--color-text);
+  font-weight: 700;
+}
+
+.title-resumo{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+#observacaoResumo{
+  margin-top: 16px;
+}
+
+#descricaoResumo{
+  margin-bottom: 20px;
+
+}
+
+.container-resumo{
+  margin-top: 10px;
+  margin-bottom: 100px;
+  width: 23.9rem;
+  padding: 2px 35px 30px 35px;
+  box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  background-color: var(--color-card);
+}
+
+
+.btn-voltar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 18px;
+  padding: 14px 20px;
+  /* box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.1); */
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+  font-size: 1rem;
+  font-weight: 600;
+  color: #404040;
+  width: 118px;
+  transition: .5s ease; 
+}
+
+.form-r{
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+

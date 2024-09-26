@@ -21,20 +21,15 @@
 
   <meta property="distribution" content="brazil">
   
-  
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css">
   <link rel= "stylesheet" href= "https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css" >
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
   <link rel="stylesheet" href="assets/css/aglobal.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-  
   <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://unpkg.com/scrollreveal"></script>
-  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js"></script>
   
   <title>Tortas Vitória</title>     
 
@@ -46,8 +41,8 @@
     <img id="img_logo" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjB243RQYzlIx8vPjSdj4PjeFenaTUskXM2w2kRZzhAwZg6KGvCzM4lAynob9X_3WY_qbrDBMIg8OELz9Thvb02wtbzbj1NT-WNcFxccktI9d8unaWuMUsqDDpqWBKrIiNM1wI9eWzG3zE6Fz6jv1XraPOcNtWw6zc_y8RA03ODSjZItRQP3xo-5tVm-JM/s1600/logo.png" alt="logo" class="logo">
     <nav class="navbar">
     <ul id="menuId" class="menu-itens">
-          <a href="#"><li class="nav-item"><i class='bx bxs-home icon-di'></i><span>início</span></li></a>
-          <a href="#"><li class="nav-item active-cardapio"><i class='bx bxs-food-menu icon-di'></i><span>Cardápio</span></li></a>
+          <a href="#"><li class="nav-item active-inicio"><i class='bx bxs-home icon-di'></i><span>início</span></li></a>
+          <a href="cardapio"><li class="nav-item"><i class='bx bxs-food-menu icon-di'></i><span>Cardápio</span></li></a>
           <a href="#"><li class="nav-item"><i class='bx bxs-cart-alt icon-di'></i><span>Valores</span></li></a>
           <a href="#"><li class="nav-item"><i class='bx bxs-map icon-di'></i><span>Endereço</span></li></a>
           <a href="#"><li class="nav-item"><i class='bx bxs-phone icon-di'></i><span>fale conosco</span></li></a> 
@@ -57,7 +52,6 @@
     </ul>
   </nav>
 </header>
-
 
   <div id="overlay"></div> 
 
@@ -81,7 +75,7 @@
          <ul class="side-menu-itens">
            <a href="#"><li class="side-nav-item side-active"><i class='bx bxs-home icon-di'></i><span>início</span></li></a>
            <span class="line"></span>
-           <a href="#"><li class="side-nav-item"><i class='bx bxs-food-menu icon-di'></i><span>Cardápio</span></li></a>
+           <a href="cardapio"><li class="side-nav-item"><i class='bx bxs-food-menu icon-di'></i><span>Cardápio</span></li></a>
            <span class="line"></span>
            <a href="#"><li class="side-nav-item"><i class='bx bxs-cart-alt icon-di'></i><span>Valores</span></li></a>
            <span class="line"></span>
@@ -107,553 +101,85 @@
 
 
 
-      <main id="content">  
-   
-
-
+      <main id="content"> 
+ 
         <section id="presentation">
     
+
+    
           
-
-
-          <div class="cardapio-presentation">
-            <a href="https://tortasvitoria.online/">
-              <div id="back_button" class="style-button"><i class="fa-solid fa-chevron-left"></i></div>
-            </a>
-
-            <p id="cardapio_home" class="title-cardapio">CARDÁPIO</p>
-            <p id="cardapio_description" class="subtitle-cardapio">Conheça o nosso cardápio</p>
+    
+          <div id="cta">
+    
+            <h1 class="title">
+              Cada torta conta
+              uma história,
+              <span>Qual é a sua?</span>
+            </h1>
+    
+            <p class="description">
+              Tortas Vitória é uma confeitaria especializada em tortas artesanais, oferecendo opções pré-definidas e personalizáveis para os clientes.
+Também fornecem produtos personalizados para eventos especiais, como confraternizações e aniversários. 
+    
+            </p>
+    
+            <div id="banner_image_responsive">
+              <img src="assets/img/cake-front.png" alt="">
+              <!-- <img id="img_logo" src="assets/img/pie1.png" alt="logo" class="logo"> -->
+            </div>
+    
+            <div id="control_btn">
+    
+            <div id="cta_buttons">
+    
+              <a href="cardapio" id="btn_cardapio" class="btn-default">
+                Ver Cardápio
+              </a>
+    
+              <a href="tel:+5581982265010" id="phone_button">
+    
+                <button id="phone-ico-btn-bold" class="btn-button">
+                  <i class="fa-solid fa-phone"></i>
+                </button>
+                (81) 98226-5010
+              </a>
+    
+    
+            </div>
           </div>
-
-        
+    
+            <div class="social-media-buttons">
+    
+              <a href="#">
+                <i class="fa-brands fa-whatsapp"></i>
+              </a>
+    
+              <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+    
+              <a href="#">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+    
+            </div>
+    
           
-      <div id="content_absolute"> 
-
-        <div class="scroll-horizontal animate__animated animate__fadeInRight">
-          <ul class="card-nav">
-
-            <a href="#" id="trad" class="click-item ico-active-trad">
-              <i class="fa-solid fa-bookmark"></i>
-              <li class="card-nav-item">Todas</li>
-            </a>
-
-            <a href="#" id="art" class="click-item">
-              <i class="fa-solid fa-palette"></i>
-              <li class="card-nav-item">Artísticas</li>
-            </a>
-
-            <a href="#" id="male" class="click-item">
-              <box-icon name='male'></box-icon>
-              <li class="card-nav-item">Masculinas</li>
-            </a>
-
-            <a href="#" id="female" class="click-item">
-              <box-icon name='female'></box-icon>
-              <li class="card-nav-item">Femininas</li>
-            </a>
-
-            <a href="#" id="sale" class="click-item">
-              <i class="fa-solid fa-star"></i>
-              <li class="card-nav-item">Mais vendidas</li>
-            </a>
-
-            <a href="#" id="resale" class="click-item">
-              <i class="fa-solid fa-sack-dollar"></i>
-              <li class="card-nav-item">Revenda</li>
-            </a>
-
-            <a href="#" id="cake" class="click-item">
-              <i class="fa-solid fa-cake-candles"></i>
-              <li class="card-nav-item">Bolos</li>
-            </a>
-
-          </ul>
+    
         </div>
-
-
-
-
-
-        </div>
-
-      
-
-          <!--========================================================================================================-->
-          <div class="content-cardapio"> <!-- ===== 01 ====== -->
-
-            <div id="morango" class="maincontent-torta"> 
-              <div class="content-name-torta">
-                <p class="model">Flores do outono</p>
-              <p class="title-name-torta">Morango</p> <!--MORANGO-->
-              
-              <!-- <p class="genero">Feminino</p> -->
-              </div>
-              <div class="content-image-val">
-              <img src="assets/img/tortas/morango-artistico.png" class="img-torta">
-                <div class="kilomoney.torta-n3">
-                          <div class="peso-torta">
-                            <ul class="kilo-pessoas-torta">
-                              <li><p class="kilo-torta">3,2 kg</p></li>
-                              <li><p class="pessoas-torta">Serve 12-15 pessoas</p></li>
-                            </ul>
-                          </div>
-                        <div class="content-money-torta">
-                          <ul class="val-pessoas-torta">
-                            <li><p class="val-liquida-torta">R$ 65,00</p></li>
-                            <li><p class="val-money-torta">R$ 50,00</p></li>
-                          </ul>
-                        </div>
-                </div> 
-              </div> 
-                  <div class="description-torta">
-                    <p class="description-text">
-                      Torta de morango, recheada com creme de morango ao leite, cobertura gelatinosa com essência de morango e decorada
-                    </p>
-                  </div>
-                  <div class="button-torta">
-                    <a href="/cardapio/morango/pedidos/flores-do-outono/"><div id="btn_pedido" class="btn-pedido animate__animated animate__pulse">Fazer pedido</div></a>
-                  </div>
-
-                  <div class="control-ver-mais">
-                    <a href="#" id="btn_ver_mais" class="btn-ver-mais">
-                      <i class="las la-plus-circle plus-icon"></i>
-                       <li>Ver mais</li>
-                   </a>
-                  </div>
-
-
-                                        <!-- Alerta -->
-                                        <div id="main_alert_exclamation" class="main-alert-exclamation">
-                                          <div id="close_icon" class="close-icon">
-                                            <i class="fa-solid fa-xmark"></i>
-                                          </div>
-                                            <ul>
-                                              <li><i class="fa-solid fa-triangle-exclamation"></i></li>
-                                              <li><p>Desculpe! No momento não há mais modelos disponíveis</p></li>
-                                            </ul>
-                                        </div>               
-                  
-
-
-            </div>
-            <!--========================================================================================================-->
-            <div id="chocolate" class="maincontent-torta"> <!-- ===== 02 ====== -->
-
-              <div class="content-name-torta">
-              <p class="model">Café dourado</p>
-              <p class="title-name-torta">Chocolate</p> <!--CHOCOLATE-->
-              
-              </div>
-              <div class="content-image-val">
-              <img src="assets/img/tortas/chocolate-artistico.png" class="img-torta">
-                <div class="kilomoney.torta-n3">
-                          <div class="peso-torta">
-                            <ul class="kilo-pessoas-torta">
-                              <li><p class="kilo-torta">3,2 kg</p></li>
-                              <li><p class="pessoas-torta">Serve 12-15 pessoas</p></li>
-                            </ul>
-                          </div>
-                        <div class="content-money-torta">
-                          <ul class="val-pessoas-torta">
-                            <li><p class="val-liquida-torta">R$ 65,00</p></li>
-                            <li><p class="val-money-torta">R$ 50,00</p></li>
-                          </ul>
-                        </div>
-                </div>
-              </div> 
-                  <div class="description-torta">
-                    <p class="description-text">
-                      Torta de chocolate com recheio amanteigado de chocolate preto ao leite, cobertura de chocolate e decoração especial
-                    </p>
-                  </div>
-                  <div class="button-torta">
-                    <a href="#"><div id="btn_pedido" class="btn-pedido animate__animated">Fazer pedido</div></a>
-                  </div>
-
- 
-                  <div class="control-ver-mais">
-                    <a href="#" id="btn_ver_mais2" class="btn-ver-mais">
-                      <i class="las la-plus-circle plus-icon"></i>
-                       <li>Ver mais</li>
-                   </a>
-                  </div>
-
-
-                  <!-- Alerta -->
-                  <div id="main_alert_exclamation2" class="main-alert-exclamation">
-                    <div id="close_icon2" class="close-icon">
-                      <i class="fa-solid fa-xmark"></i>
-                    </div>
-                      <ul>
-                        <li><i class="fa-solid fa-triangle-exclamation"></i></li>
-                        <li><p>Desculpe! No momento não há mais modelos disponíveis</p></li>
-                      </ul>
-                  </div>
-
-
-
-            </div>
-            <!--========================================================================================================-->
-            <div id="chocolate_branco" class="maincontent-torta"> <!-- ===== 03 ====== -->
-
-              <div class="content-name-torta">
-              <p class="model">Flores salmão</p>
-              <p class="title-name-torta">Chocolate Branco</p> <!--CHOCOLATE BRANCO-->
-              
-              </div>
-              <div class="content-image-val">
-              <img src="assets/img/tortas/chocolate-branco.png" class="img-torta">
-                <div class="kilomoney.torta-n3">
-                          <div class="peso-torta">
-                            <ul class="kilo-pessoas-torta">
-                              <li><p class="kilo-torta">3,2 kg</p></li>
-                              <li><p class="pessoas-torta">Serve 12-15 pessoas</p></li>
-                            </ul>
-                          </div>
-                        <div class="content-money-torta">
-                          <ul class="val-pessoas-torta">
-                            <li><p class="val-liquida-torta">R$ 65,00</p></li>
-                            <li><p class="val-money-torta">R$ 50,00</p></li>
-                          </ul>
-                        </div>
-                </div>
-              </div> 
-                  <div class="description-torta">
-                    <p class="description-text">
-                      Torta de chocolate branco, recheada com creme amanteigado de chocolate branco, e cobertura com decoração especial
-                    </p>
-                  </div>
-                  <div class="button-torta">
-                    <a href="#"><div id="btn_pedido" class="btn-pedido animate__animated">Fazer pedido</div></a>
-                  </div>
-
-                  <!-- btn -->
-
-                  <div class="control-ver-mais">
-                    <a href="#" id="btn_ver_mais3" class="btn-ver-mais">
-                      <i class="las la-plus-circle plus-icon"></i>
-                       <li>Ver mais</li>
-                   </a>
-                  </div>
-
-                  
-                  <!-- Alerta -->
-                  
-                  <div id="main_alert_exclamation3" class="main-alert-exclamation">
-                    <div id="close_icon3" class="close-icon">
-                      <i class="fa-solid fa-xmark"></i>
-                    </div>
-                      <ul>
-                        <li><i class="fa-solid fa-triangle-exclamation"></i></li>
-                        <li><p>Desculpe! No momento não há mais modelos disponíveis</p></li>
-                      </ul>
-                  </div>
-                
-
-            </div>
-            <!--========================================================================================================-->
-            <div id="bem_casado" class="maincontent-torta"> <!-- ===== 04 ====== -->
-
-              <div class="content-name-torta">
-              <p class="model">Tradicional da casa</p>
-              <p class="title-name-torta">Bem-Casado</p> <!--BEM-CASADO-->
-              </div>
-              <div class="content-image-val">
-              <img src="assets/img/tortas/bem-casado.png" class="img-torta">
-                <div class="kilomoney.torta-n3">
-                          <div class="peso-torta">
-                            <ul class="kilo-pessoas-torta">
-                              <li><p class="kilo-torta">3,2 kg</p></li>
-                              <li><p class="pessoas-torta">Serve 12-15 pessoas</p></li>
-                            </ul>
-                          </div>
-                        <div class="content-money-torta">
-                          <ul class="val-pessoas-torta">
-                            <li><p class="val-liquida-torta">R$ 65,00</p></li>
-                            <li><p class="val-money-torta">R$ 50,00</p></li>
-                          </ul>
-                        </div>
-                </div>
-              </div> 
-                  <div class="description-torta">
-                    <p class="description-text">
-                      Torta com bolo branco e preto, recheio de chocolate preto e branco, cobertura com brigadeiros e beijinhos
-                    </p>
-                  </div>
-                  <div class="button-torta">
-                    <a href="#"><div id="btn_pedido" class="btn-pedido animate__animated">Fazer pedido</div></a>
-                  </div>
-
-                  <!-- btn -->
-
-                  <div class="control-ver-mais">
-                    <a href="#" id="btn_ver_mais4" class="btn-ver-mais">
-                      <i class="las la-plus-circle plus-icon"></i>
-                       <li>Ver mais</li>
-                   </a>
-                  </div>
-
-                  
-                  <!-- Alerta -->
-                  
-                  <div id="main_alert_exclamation4" class="main-alert-exclamation">
-                    <div id="close_icon4" class="close-icon">
-                      <i class="fa-solid fa-xmark"></i>
-                    </div>
-                      <ul>
-                        <li><i class="fa-solid fa-triangle-exclamation"></i></li>
-                        <li><p>Desculpe! No momento não há mais modelos disponíveis</p></li>
-                      </ul>
-                  </div>
-
-            </div>
-            <!--========================================================================================================-->
-            <div id="prestigio" class="maincontent-torta"> <!-- ===== 05 ====== -->
-
-              <div class="content-name-torta">
-                <p class="model">Flocos de neve</p>
-              <p class="title-name-torta">Prestígio</p> <!--PRESTÍGIO-->
-              
-              <!-- <p class="genero">Feminino</p> -->
-              </div>
-              <div class="content-image-val">
-              <img src="assets/img/tortas/prestigio-tradicional.png" class="img-torta">
-                <div class="kilomoney.torta-n3">
-                          <div class="peso-torta">
-                            <ul class="kilo-pessoas-torta">
-                              <li><p class="kilo-torta">3,2 kg</p></li>
-                              <li><p class="pessoas-torta">Serve 12-15 pessoas</p></li>
-                            </ul>
-                          </div>
-                        <div class="content-money-torta">
-                          <ul class="val-pessoas-torta">
-                            <li><p class="val-liquida-torta">R$ 65,00</p></li>
-                            <li><p class="val-money-torta">R$ 50,00</p></li>
-                          </ul>
-                        </div>
-                </div>
-              </div> 
-                  <div class="description-torta">
-                    <p class="description-text">
-                      Torta com bolo branco ou preto, recheio de chocolate branco e coco, cobertura de chocolate preto e flocos de coco
-                    </p>
-                  </div>
-                  <div class="button-torta">
-                    <a href="#"><div id="btn_pedido" class="btn-pedido animate__animated">Fazer pedido</div></a>
-                  </div>
-
-                  <!-- btn -->
-
-                  <div class="control-ver-mais">
-                    <a href="#" id="btn_ver_mais5" class="btn-ver-mais">
-                      <i class="las la-plus-circle plus-icon"></i>
-                       <li>Ver mais</li>
-                   </a>
-                  </div>
-
-                  
-                  <!-- Alerta -->
-                  
-                  <div id="main_alert_exclamation5" class="main-alert-exclamation">
-                    <div id="close_icon5" class="close-icon">
-                      <i class="fa-solid fa-xmark"></i>
-                    </div>
-                      <ul>
-                        <li><i class="fa-solid fa-triangle-exclamation"></i></li>
-                        <li><p>Desculpe! No momento não há mais modelos disponíveis</p></li>
-                      </ul>
-                  </div>
-
-            </div>
-            <!--========================================================================================================-->
-            <div id="doce_de_leite" class="maincontent-torta"> <!-- ===== 06 ====== -->
-
-              <div class="content-name-torta">
-              <p class="model">Dunas de areia</p>
-              <p class="title-name-torta">Doce de leite</p>
-              
-              </div>
-              <div class="content-image-val">
-              <img src="assets/img/tortas/doce-de-leite-com-amendoim.png" class="img-torta">
-                <div class="kilomoney.torta-n3">
-                          <div class="peso-torta">
-                            <ul class="kilo-pessoas-torta">
-                              <li><p class="kilo-torta">3,2 kg</p></li>
-                              <li><p class="pessoas-torta">Serve 12-15 pessoas</p></li>
-                            </ul>
-                          </div>
-                        <div class="content-money-torta">
-                          <ul class="val-pessoas-torta">
-                            <li><p class="val-liquida-torta">R$ 85,00</p></li>
-                            <li><p class="val-money-torta">R$ 70,00</p></li>
-                          </ul>
-                        </div>
-                </div>
-              </div> 
-                  <div class="description-torta">
-                    <p class="description-text">
-                      Torta com bolo branco, recheio de doce de leite, cobertura de doce de leite com amendoim triturado e beijinhos no topo
-                    </p>
-                  </div>
-                  <div class="button-torta">
-                    <a href="#"><div id="btn_pedido" class="btn-pedido animate__animated">Fazer pedido</div></a>
-                  </div>
-
-                  <!-- btn -->
-
-                  <div class="control-ver-mais">
-                    <a href="#" id="btn_ver_mais6" class="btn-ver-mais">
-                      <i class="las la-plus-circle plus-icon"></i>
-                       <li>Ver mais</li>
-                   </a>
-                  </div>
-
-                  
-                  <!-- Alerta -->
-                  
-                  <div id="main_alert_exclamation6" class="main-alert-exclamation">
-                    <div id="close_icon6" class="close-icon">
-                      <i class="fa-solid fa-xmark"></i>
-                    </div>
-                      <ul>
-                        <li><i class="fa-solid fa-triangle-exclamation"></i></li>
-                        <li><p>Desculpe! No momento não há mais modelos disponíveis</p></li>
-                      </ul>
-                  </div>
-
-            </div>
-            <!--========================================================================================================-->
-            <div id="maracuja" class="maincontent-torta"> <!-- ===== 07 ====== -->
-
-              <div class="content-name-torta">
-              <p class="model">Tradicional da casa</p>
-              <p class="title-name-torta">Maracujá</p>
-              </div>
-              <div class="content-image-val">
-              <img src="assets/img/tortas/maracuja-tradicional.png" class="img-torta">
-                <div class="kilomoney.torta-n3">
-                          <div class="peso-torta">
-                            <ul class="kilo-pessoas-torta">
-                              <li><p class="kilo-torta">3,2 kg</p></li>
-                              <li><p class="pessoas-torta">Serve 12-15 pessoas</p></li>
-                            </ul>
-                          </div>
-                        <div class="content-money-torta">
-                          <ul class="val-pessoas-torta">
-                            <li><p class="val-liquida-torta">R$ 65,00</p></li>
-                            <li><p class="val-money-torta">R$ 50,00</p></li>
-                          </ul>
-                        </div>
-                </div>
-              </div> 
-                  <div class="description-torta">
-                    <p class="description-text">
-                      Torta com bolo branco, recheio de creme de maracujá ao leite e cobertura gelatinosa com sabor da fruta de maracujá
-                    </p>
-                  </div>
-                  <div class="button-torta">
-                    <a href="#"><div id="btn_pedido" class="btn-pedido animate__animated">Fazer pedido</div></a>
-                  </div>
-
-                  <!-- btn -->
-
-                  <div class="control-ver-mais">
-                    <a href="#" id="btn_ver_mais7" class="btn-ver-mais">
-                      <i class="las la-plus-circle plus-icon"></i>
-                       <li>Ver mais</li>
-                   </a>
-                  </div>
-
-                  
-                  <!-- Alerta -->
-                  
-                  <div id="main_alert_exclamation7" class="main-alert-exclamation">
-                    <div id="close_icon7" class="close-icon">
-                      <i class="fa-solid fa-xmark"></i>
-                    </div>
-                      <ul>
-                        <li><i class="fa-solid fa-triangle-exclamation"></i></li>
-                        <li><p>Desculpe! No momento não há mais modelos disponíveis</p></li>
-                      </ul>
-                  </div>
-
-            </div>
-            <!--========================================================================================================-->
-            <div id="limao" class="maincontent-torta dasativa-container"> <!-- ===== 08 ====== -->
-
-              <div class="content-name-torta">
-              <p class="model">Tradicional da casa</p>
-              <p class="title-name-torta">Limão</p>
-              </div>
-              <div class="content-image-val">
-              <img src="assets/img/tortas/limao-tradicional.png" class="img-torta">
-                <div class="kilomoney.torta-n3">
-                          <div class="peso-torta">
-                            <ul class="kilo-pessoas-torta">
-                              <li><p class="kilo-torta">3,2 kg</p></li>
-                              <li><p class="pessoas-torta">Serve 12-15 pessoas</p></li>
-                            </ul>
-                          </div>
-                        <div class="content-money-torta">
-                          <ul class="val-pessoas-torta">
-                            <li><p class="val-liquida-torta">R$ 65,00</p></li>
-                            <li><p class="val-money-torta">R$ 50,00</p></li>
-                          </ul>
-                        </div>
-                </div>
-              </div> 
-                  <div class="description-torta">
-                    <p class="description-text">
-                      Torta com bolo branco, recheio de creme de limão ao leite e cobertura gelatinosa com sabor de fruta de limão
-                    </p>
-                  </div>
-                  <div class="button-torta">
-                    <a href="#"><div id="btn_pedido" class="btn-pedido animate__animated">Fazer pedido</div></a>
-                  </div>
-
-                  <!-- btn -->
-
-                  <div class="control-ver-mais">
-                    <a href="#" id="btn_ver_mais8" class="btn-ver-mais">
-                      <i class="las la-plus-circle plus-icon"></i>
-                       <li>Ver mais</li>
-                   </a>
-                  </div>
-
-                  
-                  <!-- Alerta -->
-                  
-                  <div id="main_alert_exclamation8" class="main-alert-exclamation">
-                    <div id="close_icon8" class="close-icon">
-                      <i class="fa-solid fa-xmark"></i>
-                    </div>
-                      <ul>
-                        <li><i class="fa-solid fa-triangle-exclamation"></i></li>
-                        <li><p>Desculpe! No momento não há mais modelos disponíveis</p></li>
-                      </ul>
-                  </div>
-
-
- 
-                  
-            </div>
-            <!--========================================================================================================-->
-          
-
+    
+    
+          <div id="banner-image">
+            <!-- <img src="https://i.ibb.co/9GykyYy/cake-front.png" alt=""> -->
+            <img id="img_logo" src="assets/img/cake-front.png" alt="logo" class="logo">
           </div>
-
-
-
-
-
-         
-
+    
+    
+    
         </section>
-
-      </main>  
     
 
-  
+        
 
 
 
