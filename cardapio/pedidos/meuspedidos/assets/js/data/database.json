@@ -1,0 +1,88 @@
+
+
+[
+  {
+    "id": "m-flores-do-outono",
+    "disponivel": true,
+    "modelo": "Flores do outono",
+    "sabor": "Morango",
+    "imagem": "assets/img/tortas/morango-artistico.png",
+    "peso": "3,2 kg",
+    "pessoas": "Serve 12-16 pessoas",
+    "liquida": "R$ 65,00",
+    "preco": "R$ 50,00"
+  },
+
+  {
+    "id": "c-cafe-dourado",
+    "disponivel": true,
+    "modelo": "Café dourado",
+    "sabor": "Chocolate",
+    "imagem": "assets/img/tortas/chocolate-artistico.png",
+    "peso": "3,2 kg",
+    "pessoas": "Serve 12-16 pessoas",
+    "liquida": "R$ 65,00",
+    "preco": "R$ 50,00"
+  },
+
+  {
+    "id": "cb-flores-salmao",
+    "disponivel": true,
+    "modelo": "Flores salmão",
+    "sabor": "Chocolate Branco",
+    "imagem": "assets/img/tortas/chocolate-branco.png",
+    "peso": "3,2 kg",
+    "pessoas": "Serve 12-16 pessoas",
+    "liquida": "R$ 65,00",
+    "preco": "R$ 50,00"
+  },
+
+  {
+    "id": "bc-tradicional-m1",
+    "disponivel": true,
+    "modelo": "Tradicional da casa",
+    "sabor": "Bem-Casado",
+    "imagem": "assets/img/tortas/bem-casado.png",
+    "peso": "3,2 kg",
+    "pessoas": "Serve 12-16 pessoas",
+    "liquida": "R$ 65,00",
+    "preco": "R$ 50,00"
+  },
+
+  {
+    "id": "p-flocos-neve",
+    "disponivel": true,
+    "modelo": "Flocos de neve",
+    "sabor": "Prestígio",
+    "imagem": "assets/img/tortas/prestigio-tradicional.png",
+    "peso": "3,2 kg",
+    "pessoas": "Serve 12-16 pessoas",
+    "liquida": "R$ 65,00",
+    "preco": "R$ 50,00"
+  },
+
+  {
+    "id": "dl-dunas-areia",
+    "disponivel": true,
+    "modelo": "Dunas de areia",
+    "sabor": "Doce de leite",
+    "imagem": "assets/img/tortas/doce-de-leite-com-amendoim.png",
+    "peso": "3,2 kg",
+    "pessoas": "Serve 12-16 pessoas",
+    "liquida": "R$ 65,00",
+    "preco": "R$ 50,00"
+  },
+
+  {
+    "id": "marac-tradicional-m1",
+    "disponivel": true,
+    "modelo": "Tradicional da casa",
+    "sabor": "Maracujá",
+    "imagem": "assets/img/tortas/maracuja-tradicional.png",
+    "peso": "3,2 kg",
+    "pessoas": "Serve 12-16 pessoas",
+    "liquida": "R$ 65,00",
+    "preco": "R$ 50,00"
+  }
+
+]
